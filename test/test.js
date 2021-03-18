@@ -1,3 +1,4 @@
+import "./fix-global-self";
 import * as validate from "../src/validate";
 import * as math from "@danehansen/math";
 import { expect } from "chai";

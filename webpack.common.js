@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   entry: {
     app: './src/validate.js',
@@ -17,6 +19,7 @@ module.exports = {
     filename: 'danehansen-validate.min.js',
     library: ['danehansen', 'validate'],
     libraryTarget: 'umd',
+    path: __dirname,
   },
   externals: [
     {
